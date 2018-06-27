@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blinds", "Blinds\Blinds.csproj", "{E651BB8D-1786-4290-AF40-8F537D03259F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blinds.Tests", "Blinds.Tests\Blinds.Tests.csproj", "{20F6F6E7-2645-4C4A-9772-06253B727935}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E651BB8D-1786-4290-AF40-8F537D03259F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E651BB8D-1786-4290-AF40-8F537D03259F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E651BB8D-1786-4290-AF40-8F537D03259F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E651BB8D-1786-4290-AF40-8F537D03259F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F6F6E7-2645-4C4A-9772-06253B727935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F6F6E7-2645-4C4A-9772-06253B727935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F6F6E7-2645-4C4A-9772-06253B727935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F6F6E7-2645-4C4A-9772-06253B727935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD7A0A56-4518-4F58-9B37-91DF432D7C85}
+	EndGlobalSection
+EndGlobal
