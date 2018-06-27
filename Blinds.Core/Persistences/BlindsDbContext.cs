@@ -7,6 +7,7 @@ namespace Blinds.Core.Persistences
     public class BlindsDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Brand> Brands { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         public BlindsDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
