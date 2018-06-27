@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Net.Http;
 using Blinds.BindingModels;
-using Blinds.Models;
+using Blinds.Core.Models;
 using Microsoft.AspNet.Identity;
 using System.Threading.Tasks;
 using System.Web.Http;

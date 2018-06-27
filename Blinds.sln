@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blinds", "Blinds\Blinds.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blinds.Tests", "Blinds.Tests\Blinds.Tests.csproj", "{20F6F6E7-2645-4C4A-9772-06253B727935}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blinds.Core", "Blinds.Core\Blinds.Core.csproj", "{CC556437-328E-4FB4-94F5-587890596E0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{20F6F6E7-2645-4C4A-9772-06253B727935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20F6F6E7-2645-4C4A-9772-06253B727935}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20F6F6E7-2645-4C4A-9772-06253B727935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC556437-328E-4FB4-94F5-587890596E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC556437-328E-4FB4-94F5-587890596E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC556437-328E-4FB4-94F5-587890596E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC556437-328E-4FB4-94F5-587890596E0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

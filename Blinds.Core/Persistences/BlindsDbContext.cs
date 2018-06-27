@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
+﻿using Blinds.Core.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace Blinds.Models
+namespace Blinds.Core.Persistences
 {
     public class BlindsDbContext : IdentityDbContext<ApplicationUser>
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-using Blinds.Models;
+using Blinds.Core.Persistences;
 using Blinds.Providers;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin;

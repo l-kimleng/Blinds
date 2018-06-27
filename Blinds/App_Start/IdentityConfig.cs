@@ -1,4 +1,5 @@
-﻿using Blinds.Models;
+﻿using Blinds.Core.Models;
+using Blinds.Core.Persistences;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
