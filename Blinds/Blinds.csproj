@@ -138,6 +138,10 @@
     <Compile Include="Migrations\201806272018585_AddBrandModel.Designer.cs">
       <DependentUpon>201806272018585_AddBrandModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806272021260_SeedBrandData.cs" />
+    <Compile Include="Migrations\201806272021260_SeedBrandData.Designer.cs">
+      <DependentUpon>201806272021260_SeedBrandData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
@@ -162,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806272018585_AddBrandModel.resx">
       <DependentUpon>201806272018585_AddBrandModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806272021260_SeedBrandData.resx">
+      <DependentUpon>201806272021260_SeedBrandData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
