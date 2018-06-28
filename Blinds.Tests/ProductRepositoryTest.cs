@@ -3,9 +3,7 @@ using System.Threading.Tasks;
 using Blinds.Core.Models;
 using Blinds.Core.Persistences;
 using Blinds.Core.Persistences.Repositories;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
-using Assert = NUnit.Framework.Assert;
 
 namespace Blinds.Tests
 {
