@@ -23,7 +23,7 @@ namespace Blinds.Core.Persistences.Repositories
 
             if (query != null)
             {
-                var queryable = _context.Products.AsQueryable();
+                var queryable = _context.Products.Include(x => x.Brand).AsQueryable();
 
                 // Apply sorting
                 queryable = query.IsSortAscending
