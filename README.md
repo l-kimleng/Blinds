@@ -7,9 +7,9 @@ You realize that your living room has too much sun light coming in. You are sear
 
 # How to Build
 1. Build project
-2. Open Package Manager Console
-   . Select Default project: Blinds
-   . Type: Update-Database
+2. Open Package Manager Console:
+   -> Select Default project: Blinds
+   -> Type: Update-Database
    
 3. Run run project
 
