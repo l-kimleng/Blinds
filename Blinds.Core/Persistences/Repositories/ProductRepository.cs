@@ -25,6 +25,17 @@ namespace Blinds.Core.Persistences.Repositories
             {
                 var queryable = _context.Products.Include(x => x.Brand).AsQueryable();
 
+                // Apply filter
+                if (!string.IsNullOrEmpty(query.Name))
+                {
+                    queryable = queryable.Where(x => x.Name.Contains(query.Name));
+                }
+
+                if (query.BrandId > 0)
+                {
+                    queryable = queryable.Where(x => x.BrandId == query.BrandId);
+                }
+
                 // Apply sorting
                 queryable = query.IsSortAscending
                     ? queryable.OrderBy(x => x.Price)
@@ -37,16 +48,6 @@ namespace Blinds.Core.Persistences.Repositories
                 if (size <= 0) size = 5;
 
                 queryable = queryable.Skip((page - 1) * size).Take(size);
-
-                if (query.BrandId > 0)
-                {
-                    queryable = queryable.Where(x => x.BrandId == query.BrandId);
-                }
-
-                if (!string.IsNullOrEmpty(query.Name))
-                {
-                    queryable = queryable.Where(x => x.Name.Contains(query.Name));
-                }
 
                 result.AddRange(await queryable.ToListAsync());
             }
