@@ -45,9 +45,10 @@ namespace Blinds.Core.Persistences.Repositories
 
                 if (!string.IsNullOrEmpty(query.Name))
                 {
-                    var listByName = await queryable.Where(x => x.Name.Contains(query.Name)).ToListAsync();
-                    result.AddRange(listByName);
+                    queryable = queryable.Where(x => x.Name.Contains(query.Name));
                 }
+
+                result.AddRange(await queryable.ToListAsync());
             }
 
             return result;
