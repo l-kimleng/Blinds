@@ -151,6 +151,14 @@
     <Compile Include="Migrations\201806272135329_SeedProductData.Designer.cs">
       <DependentUpon>201806272135329_SeedProductData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806280347184_SeedBrandData2.cs" />
+    <Compile Include="Migrations\201806280347184_SeedBrandData2.Designer.cs">
+      <DependentUpon>201806280347184_SeedBrandData2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806280349109_SeedProductData2.cs" />
+    <Compile Include="Migrations\201806280349109_SeedProductData2.Designer.cs">
+      <DependentUpon>201806280349109_SeedProductData2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
@@ -185,6 +193,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806272135329_SeedProductData.resx">
       <DependentUpon>201806272135329_SeedProductData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806280347184_SeedBrandData2.resx">
+      <DependentUpon>201806280347184_SeedBrandData2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806280349109_SeedProductData2.resx">
+      <DependentUpon>201806280349109_SeedProductData2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
