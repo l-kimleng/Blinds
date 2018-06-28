@@ -11,7 +11,7 @@ You realize that your living room has too much sun light coming in. You are sear
    -> Select Default project: Blinds
    -> Type: Update-Database
    
-3. Run run project
+3. Run Project
 
 # Deploy web api
   url: http://blinds-cc.azurewebsites.net/api/products?Name&BrandId=-1&IsSortAscending=false&Page=1&PageSize=10
